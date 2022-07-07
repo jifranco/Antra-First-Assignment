@@ -1,0 +1,121 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  
+  .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+  text-align: center;
+  }
+  
+  .firstname, .lastname, .password, .passwordconfirmation{
+    width:40%;
+    height: 10px;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 2px solid rgb(209, 198, 198);
+    padding: 15px;
+  }
+  
+  .firstname,.password{
+    margin-left: 3%;
+  }
+  .lastname, .passwordconfirmation{
+    margin-left: 1%;
+  }
+  
+  .mobile, .email{
+    width:83%;
+    height: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(209, 198, 198);
+    padding:15px;
+  }
+  
+  div{
+    padding: 10px;
+  }
+  
+  .register, .sign-in{
+    width:35%;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid rgb(190, 190, 190);
+    font-size: 20px;
+    padding: 8px;
+    color: #fff;
+  }
+  .register{
+    background-color: #0866b8;
+    margin-right: 50px;
+  }
+  .sign-in{
+    background-color: green;
+  }
+  
+  .agree{
+    width:12%;
+    float: left;
+    margin:0px;
+    margin-left: 8%;
+    padding:0px;
+    padding-top: 10px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .text{
+    width:54%;
+    text-align: left;
+    float: right;
+    margin:0 8% 20px 4%;
+    height: 45px;
+    font-size: 14px;
+    padding-right: 30px;
+  }
+  
+  .text span{
+    background-color: rgb(37, 87, 179);
+    color:#fff;
+    padding: 3px;
+    border-radius: 3px;
+    padding-left: 2%;
+    }
+  
+    .text a{
+        text-decoration: none;
+        color: #0e32b6;
+    }
+  
+
+    /* @media(max-width:511px){
+        .text{
+            width:54%;
+            text-align: left;
+            float: right;
+            margin:0 8% 20px 4%;
+            height: 45px;
+            font-size: 14px;
+            padding-right: 30px;
+          }
+          .agree{
+            width:12%;
+            float: left;
+            margin:0px;
+            margin-left: 8%;
+            padding:0px;
+            padding-top: 10px;
+            height: 45px;
+            font-size: 18px;
+          }
+          div{
+            padding: 0 50;
+          }
+    } */
